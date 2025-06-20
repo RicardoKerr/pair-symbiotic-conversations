@@ -55,7 +55,7 @@ const WebDemo = () => {
                       {card.hasButton && (
                         <Button 
                           asChild
-                          className="bg-white text-green-600 hover:bg-gray-100 font-semibold"
+                          className="bg-white text-green-600 hover:bg-gray-100 font-semibold mt-auto"
                         >
                           <a href={card.buttonLink} target="_blank" rel="noopener noreferrer">
                             {card.buttonText}
